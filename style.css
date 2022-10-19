@@ -1,0 +1,201 @@
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background: url();
+    box-sizing: border-box;
+}
+
+
+.form-input-wide {
+    padding: 1rem;
+}
+
+.form-section {
+    list-style: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    zoom: 1;
+    clear: both
+}
+
+.form-required {
+    margin-left: 5px;
+    color: red;
+}
+
+.form-input {
+    display: inline-block;
+}
+
+.form-sub-label-container {
+    display: inline-block;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+.form-textbox,
+.form-textarea,
+.form-upload,
+.form-dropdown,
+.form-matrix-column-headers,
+.form-matrix-row-headers,
+.form-matrix-values {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #F2D605;
+    border: 1px dashed #F2D605;
+    background: #2E353F;
+}
+
+.form-sub-label {
+    color: #999;
+    display: block;
+    font-size: 9px;
+    margin-bottom: 0.5rem;
+}
+
+
+.form-address-table {
+    width: 330px;
+}
+
+.form-address-line {
+    width: 310px;
+}
+
+.form-address-table td,
+.form-address-table th {
+    padding-bottom: 10px
+}
+
+
+.form-address-city,
+.form-address-state {
+    width: 147px;
+}
+
+.form-address-table select {
+    width: 150px;
+}
+
+.form-submit-button {
+    background-color: #F2D605;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0px;
+    color: #2E353F;
+    padding: 7px 40px;
+}
+
+
+.form-label {
+    width: 150px !important;
+}
+
+.form-label-left {
+    width: 150px !important;
+    display: inline-block;
+    text-align: left;
+    padding: 3px;
+    white-space: normal;
+    font-weight: bold;
+    float: left;
+}
+
+.form-line {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    clear: both;
+    padding: 10px;
+    margin: 0px;
+    display: block;
+    /* width: 97%; */
+    position: relative
+}
+
+.form-label-right {
+    width: 150px !important;
+}
+
+.form-all {
+    margin: 0px auto;
+    padding-top: 20px;
+    width: 650px;
+    background: url();
+    color: #121111 !important;
+    font-family: 'Trebuchet MS', '  sans-serif';
+    font-size: 14px;
+
+}
+
+.form-radio-item label,
+.form-checkbox-item label,
+.form-grading-label,
+.form-header {
+    color: #121111;
+}
+
+.form-footer {
+    background-color: #2E353F;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 0 !important;
+}
+
+@media only screen and (max-device-width: 600px) {
+  
+    .form-label-left {
+        float: none;
+        display: block;
+    }
+
+    .form-all {
+        width: auto !important;
+    }
+
+    .form-line {
+        margin: auto;
+        display: block;
+    }
+
+    .form-input {
+        display: block;
+    }
+
+    .form-sub-label-container {
+        display: block;
+    }
+
+    .form-sub {
+        width: 94%;
+    }
+    
+    .form-textbox {
+        width: 100%;
+    }
+
+    .form-address-table {
+        width: 100%;
+    }
+
+    .form-address-table select {
+        width: 102%;
+    }
+
+}
+
+
+@media only screen and (max-device-width: 320px)  {
+    img {
+        width: 100%;
+        height: 100%;
+    }    
+
+}
